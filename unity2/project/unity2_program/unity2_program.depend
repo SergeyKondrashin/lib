@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1720163816 source:d:\cpp_modules\project\unity2_program\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	"unity2_module.h"
+
+1720163519 d:\cpp_modules\project\unity2_lib\unity2_module.h
+

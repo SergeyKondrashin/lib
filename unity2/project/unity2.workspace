@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="unity2">
+		<Project filename="unity2_lib/unity2_lib.cbp" />
+		<Project filename="unity2_program/unity2_program.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

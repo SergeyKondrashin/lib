@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1720116460 source:d:\cpp_modules\project\kod_program\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"kod_module.h"
+
+1720114390 d:\cpp_modules\project\kod_lib\kod_module.h
+

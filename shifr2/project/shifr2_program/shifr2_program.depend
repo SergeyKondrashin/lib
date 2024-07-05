@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1720165260 source:d:\cpp_modules\project\shifr2_program\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	"shifr2_module.h"
+
+1720164838 d:\cpp_modules\project\shifr2_lib\shifr2_module.h
+

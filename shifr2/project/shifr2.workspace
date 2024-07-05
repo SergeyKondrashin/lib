@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="shifr2">
+		<Project filename="shifr2_lib/shifr2_lib.cbp" />
+		<Project filename="shifr2_program/shifr2_program.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

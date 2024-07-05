@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="unity2_program" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../bin/Debug/unity2_program" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../obj/Debug/unity2_program/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../obj/Debug" />
+				</Compiler>
+				<Linker>
+					<Add library="unity2_lib" />
+					<Add directory="../../obj/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../../bin/Release/unity2_program" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../obj/Release/unity2_program/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../../obj/Debug" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="unity2_lib" />
+					<Add directory="../../obj/Debug" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../unity2_lib" />
+		</Compiler>
+		<Linker>
+			<Add library="unity2_lib" />
+			<Add directory="../unity2_lib" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

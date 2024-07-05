@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1720039279 source:d:\cpp_modules\project\names_program\main.cpp
+	<iostream>
+	<string>
+	"names_module.h"
+
+1720038412 d:\cpp_modules\project\names_lib\names_module.h
+
+1720039280 source:d:\names\project\names_program\main.cpp
+	<iostream>
+	<string>
+	"names_module.h"
+
+1720038414 d:\names\project\names_lib\names_module.h
+
